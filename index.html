@@ -5,18 +5,86 @@
   <title>Otrokarství u Denise</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #fdf6e3;
-      padding: 2em;
-      color: #333;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      margin: 0;
+      padding: 20px;
     }
     h1 {
-      color: #b22222;
+      text-align: center;
+      color: #a52a2a;
+    }
+    .marketplace {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .item {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 300px;
+      padding: 15px;
+      text-align: center;
+    }
+    .item img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .item h2 {
+      font-size: 20px;
+      color: #333;
+    }
+    .item .price {
+      font-size: 18px;
+      color: #008000;
+      margin: 10px 0;
+    }
+    .item ul {
+      text-align: left;
+      padding-left: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>Vítejte na stránkách "Otrokarství u Denise"</h1>
-  <p>Tato stránka je věnovaná zkoumání dějin a fenoménu otrokářství, s nadhledem i vážně.</p>
+  <h1>Otrokarství u Denise – Nabídka Produktů</h1>
+  <div class="marketplace">
+
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Produkt+1" alt="Produkt 1">
+      <h2>Řetězy Deluxe</h2>
+      <div class="price">1 200 Kč</div>
+      <ul>
+        <li>Nerezová ocel</li>
+        <li>Nastavitelná délka</li>
+        <li>Stylový design</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Produkt+2" alt="Produkt 2">
+      <h2>Dozorčí Bič 3000</h2>
+      <div class="price">850 Kč</div>
+      <ul>
+        <li>Kožený úchop</li>
+        <li>3 úrovně tvrdosti</li>
+        <li>Historicky autentický vzhled</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <img src="https://via.placeholder.com/300x200?text=Produkt+3" alt="Produkt 3">
+      <h2>Tričko "Jsem vlastnictví Denise"</h2>
+      <div class="price">399 Kč</div>
+      <ul>
+        <li>Bavlna 100%</li>
+        <li>Unisex velikosti</li>
+        <li>Limitovaná edice</li>
+      </ul>
+    </div>
+
+  </div>
 </body>
 </html>
